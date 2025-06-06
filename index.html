@@ -28,6 +28,25 @@
   </div>
 </body>
 
+<script>
+const images = [
+  'images/Bezmyatezhnost\'.jpg',
+  'images/Dolina.jpg',
+  'images/Escho les.jpg',
+  'images/Les.jpg',
+  'images/Letniy les.jpg',
+  'images/More.jpg',
+  'images/Moremore.jpg'
+];
+
+const randomImage = images[Math.floor(Math.random() * images.length)];
+
+document.body.style.backgroundImage = `url("${randomImage}")`;
+document.body.style.backgroundSize = 'cover';
+document.body.style.backgroundPosition = 'center';
+document.body.style.backgroundRepeat = 'no-repeat';
+</script>
+
 <script src="script.js"></script>
 
 </html>

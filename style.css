@@ -7,10 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background: #5dd0ec;
-}
-
 .main-container {
   display: flex;
   width: 100vw;
@@ -21,7 +17,7 @@ body {
 }
 
 .ta-wrapper {
-  background: #1d5536;
+  /* background: #1d5536; */
   color: white;
   padding: 20px;
   border-radius: 4px;
@@ -48,8 +44,8 @@ body {
     width: 500px;
 }
 .input-wrapper button {
-  background: #309c4b;
-    color: white;
+    background: rgba(0,0,0,0.2);
+    color: black;
     border: 0;
     padding: 10px;
     font-weight: bold;
@@ -67,11 +63,11 @@ body {
 .todo-item input {
   background: transparent;
   border: rgb(36, 172, 65);
-  color: white;
+  color: black;
   outline: none;
 }
 .todo-item i{
-  color: #37b85e;
+  color: black;
   background: transparent;
   border: 1px solid;
   border-radius: 50%;

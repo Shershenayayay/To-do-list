@@ -18,6 +18,8 @@
 
 .ta-wrapper {
   /* background: #1d5536; */
+  height: 400px; 
+  overflow-y: auto;
   color: white;
   padding: 20px;
   border-radius: 4px;
